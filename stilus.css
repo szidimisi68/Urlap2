@@ -11,6 +11,7 @@ fieldset
 .szurke
 {
     border: 2px solid rgb(173, 173, 173);
+    font-weight: bold;
 }
 
 .piros
@@ -18,9 +19,124 @@ fieldset
     border: 2px solid rgb(192, 2, 2);
 }
 
+
+
 #container
 {
     background-color: rgb(242, 242, 242);
     width: 500px;
-    height: 400px;
+    height: 430px;
+}
+
+#Mentés
+{
+    background-color: rgb(245, 100, 34);
+    border: 2px solid rgb(192, 78, 26);
+    color: white;
+    height: 35px;
+    width: 90px;
+}
+
+#nev
+{
+    margin-left: 120px;
+    width: 260px;
+    height: 25px;
+}
+
+#phone1
+{
+    height: 31px;
+    width: 60px;
+    margin-left: 120px;
+}
+
+#phone2
+{
+    height: 25px;
+    margin-left: -6px;
+    width: 201px;
+}
+
+#gomb
+{
+    margin-left: 155px;
+}
+
+#email
+{
+    margin-left: 164px;
+    width: 260px;
+    height: 25px;
+}
+
+#levelezes
+{
+    width: 150px;
+    height: 0px;
+}
+
+#nyelv
+{
+    margin-left: 203px;
+    width: 267px;
+    height: 30px;
+}
+
+#ev
+{
+    margin-left: 119px;
+    height: 30px;
+    width: 65px;
+}
+
+#ho
+{
+    height: 30px;
+    width: 65px;
+    margin-left: 10px;
+}
+
+#nap
+{
+    height: 30px;
+    width: 65px;
+    margin-left: 10px;
+}
+
+#elsosor
+{
+    padding-top: 15px;
+}
+
+#kep    
+{
+    margin-left: 217px;
+    width: 270px;
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#torta
+{
+ float: left;
+ margin-top: -9px;
+}
+
+#főcím
+{
+    color: rgb(109, 109, 109);
+    font-size: 25px;
+}
+
+label,input,select
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+label
+{
+    color: grey;
 }

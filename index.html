@@ -8,16 +8,20 @@
 </head>
 
 <body>
-    <h3>Alapadatok</h3>
+    <span id="főcím">Alapadatok</span>
     <div id="container">
-        <fieldset>
+        <fieldset id="elsosor">
             <label for="nev">Teljes neved</label>
             <input type="text" name="nev" id="nev" class="szurke">
         </fieldset>
         <fieldset>
             <label for="neme">Nemed</label>
-            <label><input type="radio" name="neme" value="Férfi">Férfi</label>
+            <label><input type="radio" name="neme" value="Férfi" id="gomb">Férfi</label>
             <label><input type="radio" name="neme" value="Nő">Nő</label>
+        </fieldset>
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="piros">
         </fieldset>
         <fieldset>
             <label for="phone">Telefonszám</label>
@@ -32,11 +36,11 @@
             <input type="number" name="phone" id="phone2" class="szurke">
         </fieldset>
         <fieldset>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" class="piros">
-        </fieldset>
-        <fieldset>
-            <label for="nyelv">Levelezés alapértelmezett nyelve</label>
+            <div id="levelezes">
+                <label for="nyelv">
+                    Levelezés alapértelmezett nyelve
+                </label>
+            </div>
             <label>
                 <select name="nyelv" id="nyelv" class="szurke">
                     <option value="Magyar">Magyar</option>
@@ -48,7 +52,7 @@
         <fieldset>
             <label for="date">Születési idő</label>
             <label>
-                <select name="ev" id="date" class="szurke">
+                <select name="date" id="ev" class="szurke">
                     <option selected>Év</option>
                     <option value="2000">2000</option>
                     <option value="1999">1999</option>
@@ -57,7 +61,7 @@
                 </select>
             </label>
             <label>
-                <select name="ho" id="date" class="szurke">
+                <select name="date" id="ho" class="szurke">
                     <option selected>Hó</option>
                     <option value="01">01</option>
                     <option value="02">02</option>
@@ -66,7 +70,7 @@
                 </select>
             </label>
             <label>
-                <select name="nap" id="date" class="szurke">
+                <select name="date" id="nap" class="szurke">
                     <option selected>Nap</option>
                     <option value="01">01</option>
                     <option value="02">02</option>
@@ -75,11 +79,13 @@
                 </select>
             </label>
         </fieldset>
-        <hr>
-        <img src="torta.png"> Add meg a születésnapodat és várd a meglepetést!
-        <hr>
+        <div id="kep">
+            <hr>
+            <img src="torta.png" id="torta"><span id="hely">meg a születésnapodat és várd a meglepetést!</span>
+            <hr>
+        </div>
         <fieldset>
-            <input type="submit" value="Mentés">
+            <input type="submit" id="Mentés" value="Mentés">
         </fieldset>
     </div>
 </body>
