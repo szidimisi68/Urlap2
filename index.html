@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <h3>Alapadatok</h3>
+    <div id="container">
+        <fieldset>
+            <label for="nev">Teljes neved</label>
+            <input type="text" name="nev" id="nev" class="szurke">
+        </fieldset>
+        <fieldset>
+            <label for="neme">Nemed</label>
+            <label><input type="radio" name="neme" value="Férfi">Férfi</label>
+            <label><input type="radio" name="neme" value="Nő">Nő</label>
+        </fieldset>
+        <fieldset>
+            <label for="phone">Telefonszám</label>
+            <label>
+                <select name="phone" id="phone1" class="szurke">
+                    <option value="36" selected>36</option>
+                    <option value="06">06</option>
+                    <option value="40">40</option>
+                    <option value="20">20</option>
+                </select>
+            </label>
+            <input type="number" name="phone" id="phone2" class="szurke">
+        </fieldset>
+        <fieldset>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="piros">
+        </fieldset>
+        <fieldset>
+            <label for="nyelv">Levelezés alapértelmezett nyelve</label>
+            <label>
+                <select name="nyelv" id="nyelv" class="szurke">
+                    <option value="Magyar">Magyar</option>
+                    <option value="Angol">Angol</option>
+                    <option value="Német">Német</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="date">Születési idő</label>
+            <label>
+                <select name="ev" id="date" class="szurke">
+                    <option selected>Év</option>
+                    <option value="2000">2000</option>
+                    <option value="1999">1999</option>
+                    <option value="1998">1998</option>
+                    <option value="1997">1997</option>
+                </select>
+            </label>
+            <label>
+                <select name="ho" id="date" class="szurke">
+                    <option selected>Hó</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                </select>
+            </label>
+            <label>
+                <select name="nap" id="date" class="szurke">
+                    <option selected>Nap</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                    <option value="04">04</option>
+                </select>
+            </label>
+        </fieldset>
+        <hr>
+        <img src="torta.png"> Add meg a születésnapodat és várd a meglepetést!
+        <hr>
+        <fieldset>
+            <input type="submit" value="Mentés">
+        </fieldset>
+    </div>
+</body>
+
+</html>

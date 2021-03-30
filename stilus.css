@@ -1,0 +1,26 @@
+body
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+fieldset
+{
+    border: none;
+}
+
+.szurke
+{
+    border: 2px solid rgb(173, 173, 173);
+}
+
+.piros
+{
+    border: 2px solid rgb(192, 2, 2);
+}
+
+#container
+{
+    background-color: rgb(242, 242, 242);
+    width: 500px;
+    height: 400px;
+}
